@@ -128,11 +128,12 @@
             <li><b>Edad:</b> 22</li>
           </ul>
           <ul class="list-unstyled">
-            <a href="https://www.linkedin.com/in/anthony-rubio-48995b1b3/" target="_blank"><img id="linkedin" src="assets/img/logo/linkedin_red.png"
-                class="icons_footer" alt=""></a>
-            <a href="https://www.facebook.com/antony.rubio.9822/" target="_blank"><img id="facebook" src="assets/img/logo/facebook_red.png"
-                class="icons_footer" alt=""></a>
-            <a href="https://github.com/anthonyR012" target="_blank"><img id="git_hub" src="assets/img/logo/github_red.png" class="icons_footer" alt=""></a>
+            <a href="https://www.linkedin.com/in/anthony-rubio-48995b1b3/" target="_blank"><img id="linkedin"
+                src="assets/img/logo/linkedin_red.png" class="icons_footer" alt=""></a>
+            <a href="https://www.facebook.com/antony.rubio.9822/" target="_blank"><img id="facebook"
+                src="assets/img/logo/facebook_red.png" class="icons_footer" alt=""></a>
+            <a href="https://github.com/anthonyR012" target="_blank"><img id="git_hub"
+                src="assets/img/logo/github_red.png" class="icons_footer" alt=""></a>
 
           </ul>
           <!-- <a href="assets/img/AnthonyLP2022.pdf" style="text-decoration: none;" target="_blank"><button
@@ -146,11 +147,11 @@
     <h1 class="text-center fw-normal wow fadeIn pb-5">Habilidades</h1>
     <div class="content-card pb-5 pt-5">
 
-      <div class="container__card" id="habilities_carrousel">
+      <div class="container__card">
 
         <figure class="icon-cards mt-3">
 
-          <div class="icon-cards__content add_animation">
+          <div class="icon-cards__content add_animation" id="habilities_carrousel">
             <div class="icon-cards__item d-flex align-items-center justify-content-center" id="card_frontend">
               <div class="card__father">
                 <div class="card">
@@ -158,13 +159,11 @@
                     <div class="bg"></div>
                     <div class="body__card_front">
                       <img src="assets/img/logo/tap_red.png" id="tap_1" alt="">
-                      <h1></h1>
+                      <h1 style="font-size: 15px;">Desarrollo movil & Frontend.</h1>
                     </div>
                   </div>
                   <div class="card__back">
                     <div class="body__card_back">
-                      <h1>Desarrollo movil & Frontend.</h1>
-
                       <div class="galeria">
                         <div class="card-block">
                           <p class="text-center-tooltip">
@@ -262,14 +261,12 @@
                   <div class="card__front" style="background-image: url(assets/img/habilities/backend.jpg);">
                     <div class="bg"></div>
                     <div class="body__card_front">
+                      <h1 style="font-size: 15px;">Desarrollo web & Backend.</h1>
                       <img src="assets/img/logo/tap_red.png" id="tap_2" alt="">
-                      <h1></h1>
                     </div>
                   </div>
                   <div class="card__back">
                     <div class="body__card_back">
-                      <h1>Desarrollo web & Backend.</h1>
-
                       <div class="galeria">
                         <div class="card-block">
                           <p class="text-center-tooltip">
@@ -338,13 +335,12 @@
                   <div class="card__front" style="background-image: url(assets/img/habilities/base_datos.jpg);">
                     <div class="bg"></div>
                     <div class="body__card_front">
+                      <h1 style="font-size: 15px;">Base de datos & Otros.</h1>
                       <img src="assets/img/logo/tap_red.png" id="tap_3" alt="">
-                      <h1></h1>
                     </div>
                   </div>
                   <div class="card__back">
                     <div class="body__card_back">
-                      <h1>Base de datos & Otros.</h1>
                       <div class="galeria">
                         <div class="card-block">
                           <p class="text-center-tooltip">
@@ -398,11 +394,20 @@
           </div>
         </figure>
       </div>
-       <!-- check box -->
-       <ul style="padding-top: 100px;">
-       <input type="radio" class="check_from" name="position" checked />
+      <!-- check box -->
+      <ul class="ul__selectedActividad">
+        <div class="form-check form-check-inline">
+          <input class="form-check-input check_from" type="radio" name="inlineRadioOptions"  value="option1" checked>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input check_back" type="radio" name="inlineRadioOptions"  value="option2">
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input check_db" type="radio" name="inlineRadioOptions"  value="option3">
+        </div>
+        <!-- <input type="radio" class="check_from" name="position" checked />
        <input type="radio" class="check_back" name="position" />
-       <input type="radio" class="check_db" name="position" />
+       <input type="radio" class="check_db" name="position" /> -->
       </ul>
     </div>
 
@@ -476,9 +481,9 @@
       </div>
     </div>
   </div>
-<!-- FIN ESTUDIO Y EXPERIENCIA -->
+  <!-- FIN ESTUDIO Y EXPERIENCIA -->
 
-<!-- INICIO SERVICIOS -->
+  <!-- INICIO SERVICIOS -->
   <div class="vg-page page-service">
     <div class="container">
       <div class="text-center wow fadeInUp">
@@ -558,7 +563,7 @@
       </div> -->
     </div>
   </div>
-<!-- FIN SERVICIO Y BANNER NEGRO -->
+  <!-- FIN SERVICIO Y BANNER NEGRO -->
   <!-- Portfolio page -->
   <div class="vg-page page-portfolio" id="portfolio">
     <div class="container">

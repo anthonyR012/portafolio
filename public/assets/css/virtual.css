@@ -551,6 +551,15 @@ a:hover, a:active {
     border: 2px solid #888;
 }
 
+@media(max-width: 450px) {
+    .theme-list {
+        position: relative;
+        padding-left: 30px;
+        list-style: none;
+        z-index: 0;
+    }
+  }
+
 /*
  *  8. Navigation 
  */
