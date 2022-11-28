@@ -2283,10 +2283,34 @@ textarea.form-control-lg {
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
 }
-.form-check-input:checked {
+
+.theme-red .form-check-input:checked {
+  background-color: #ef3724;
+  color: #fff;
+}
+
+.theme-blue .form-check-input:checked {
+  background-color: #2960f7 !important;
+}
+
+.theme-green .form-check-input:checked {
+  background-color: #8cc63f !important;
+}
+
+.theme-orange .form-check-input:checked {
+  background-color: #fd7e14 !important;
+}
+
+.theme-purple .form-check-input:checked {
+  background-color: #6f42c1 !important;
+}
+
+
+
+/* .form-check-input:checked {
   background-color: #0d6efd;
   border-color: #0d6efd;
-}
+} */
 .form-check-input:checked[type=checkbox] {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e");
 }
@@ -4266,6 +4290,8 @@ textarea.form-control-lg {
 }
 
 .card-footer {
+  position: absolute;
+    bottom: 0;
   padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);
   color: var(--bs-card-cap-color);
   background-color: var(--bs-card-cap-bg);

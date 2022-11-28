@@ -479,13 +479,7 @@ a:hover, a:active {
     background-color: #747474;
 }
 
-/* 
-    5. Preloader
-*/
 
-/* 
-    6. Pagination
-*/
 .page-item:not(:last-child) .page-link {
     margin-right: 8px;
 }
@@ -511,9 +505,6 @@ a:hover, a:active {
 }
 
 
-/* 
-    7. List style
-*/
 .theme-list {
     position: relative;
     padding-left: 30px;
@@ -549,6 +540,10 @@ a:hover, a:active {
     border-radius: 50%;
     background-color: #fff;
     border: 2px solid #888;
+}
+
+.ul__selectedActividad{
+    padding-top: 90px;
 }
 
 @media(max-width: 450px) {
